@@ -1,0 +1,17 @@
+{
+    "signin.signin":"Sign in",
+    "signin.email":"Email Address",
+    "signin.password":"Password",
+    "signin.rememberme":"Remember me",
+    "signin.signin.button":"SIGN IN",
+    "signin.forgot.password":"Forgot Password?",
+    "signin.dont.have.account":"Don't have an account? Sign Up",
+    "signup.signup":"Sign up",
+    "signup.first.name":"First Name",
+    "signup.last.name":"Last Name",
+    "signup.email":"Email Address",
+    "signup.password":"Password",
+    "signup.confirm.password":"Confirm Password",
+    "signup.signup.button":"SIGN UP",
+    "signup.have.account":"Already have an account? Sign in"
+}

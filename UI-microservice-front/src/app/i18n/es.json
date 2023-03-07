@@ -1,0 +1,17 @@
+{
+    "signin.signin":"Iniciar sesión",
+    "signin.email":"Correo electrónico",
+    "signin.password":"Contraseña",
+    "signin.rememberme":"Recuerdame",
+    "signin.signin.button":"INICIAR SESION",
+    "signin.forgot.password":"Olvidaste tu contraseña?",
+    "signin.dont.have.account":"No tienes una cuenta? Crear cuenta nueva",
+    "signup.signup":"Crear cuenta nueva",
+    "signup.first.name":"Nombre",
+    "signup.last.name":"Apellido",
+    "signup.email":"Correo electrónico",
+    "signup.password":"Contraseña",
+    "signup.confirm.password":"Confirmar contraseña",
+    "signup.signup.button":"CREAR CUENTA NUEVA",
+    "signup.have.account":"¿Ya tienes una cuenta? Iniciar sesión"
+}
