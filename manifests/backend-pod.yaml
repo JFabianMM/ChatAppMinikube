@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      role: backend
+  template:
+    metadata:
+      labels:
+        role: backend
+    spec:
+      containers:
+      - image: fabianmm34/chatapp:backend4
+        name: backend
+        ports:
+        - containerPort: 4001
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend
+spec: 
+  ports: 
+  - port: 4001
+    targetPort: 4001
+  selector: 
+    role: backend

@@ -1,0 +1,34 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: graphql
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      role: graphql
+  template:
+    metadata:
+      labels:
+        role: graphql
+    spec:
+      containers:
+      - image: fabianmm34/chatapp:graphql4
+        name: graphql
+        ports:
+        - containerPort: 4000
+
+---
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: graphql
+spec:
+  type: NodePort
+  ports: 
+  - port: 4000
+    targetPort: 4000
+    nodePort: 30001
+  selector: 
+    role: graphql
